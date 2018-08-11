@@ -1,0 +1,55 @@
+site_name: 'Linux System Administration I'
+site_description: 'Linux System Administration I Course'
+site_author: 'Matthew Sanabria'
+site_url: 'https://lsa-i.sudomateo.com/'
+repo_name: 'sudomateo/lsa-i'
+repo_url: 'https://github.com/sudomateo/lsa-i'
+edit_uri: ''
+copyright: 'Copyright &copy; 2018 Matthew Sanabria'
+theme:
+  name: 'material'
+  language: 'en'
+  palette:
+    primary: 'red'
+    accent: 'green'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  logo:
+    icon: 'code'
+  feature:
+    tabs: true
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/sudomateo'
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - footnotes
+  - meta
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - toc:
+      permalink: true
+nav:
+  - 'Home':
+    - 'index.md'
+    - 'conventions.md'
+    - 'community.md'
