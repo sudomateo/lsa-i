@@ -57,3 +57,17 @@ nav:
     - 'getting-started/index.md'
     - 'getting-started/installing-linux.md'
     - 'getting-started/using-vagrant.md'
+  - 'Linux Essentials':
+    - 'linux-essentials/index.md'
+  - 'Managing Files':
+    - 'managing-files/index.md'
+  - 'Managing Software':
+    - 'managing-software/index.md'
+  - 'Configuring Disks':
+    - 'configuring-disks/index.md'
+  - 'System Administration':
+    - 'system-administration/index.md'
+  - 'Networking Basics':
+    - 'network-basics/index.md'
+  - 'Shell Scripting':
+    - 'shell-scripting/index.md'
