@@ -1,6 +1,11 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
+$script = <<-SCRIPT
+yum install -y bash-completion vim-enhanced
+echo "Welcome to Linux System Administration I" > /etc/motd
+SCRIPT
+
 Vagrant.configure("2") do |config|
 
   # The guest name when using `vagrant status`
@@ -42,5 +47,8 @@ Vagrant.configure("2") do |config|
     end
 
   end
+  
+  # Provision the virtual machine
+  config.vm.provision "shell", inline: $script
 
 end
