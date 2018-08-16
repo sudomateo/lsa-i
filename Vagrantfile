@@ -35,8 +35,8 @@ Vagrant.configure("2") do |config|
 
     if (not File.exists?(disk1)) && (not File.exists?(disk2))
       # Create additional disk files
-      vb.customize ['createmedium', '--filename', disk1, '--variant', 'Standard', '--size', 10240]
-      vb.customize ['createmedium', '--filename', disk2, '--variant', 'Standard', '--size', 10240]
+      vb.customize ['createmedium', '--filename', disk1, '--variant', 'Standard', '--size', 1024]
+      vb.customize ['createmedium', '--filename', disk2, '--variant', 'Standard', '--size', 1024]
 
       # Adding a SATA controller that allows 2 hard drives
       vb.customize ['storagectl', :id, '--name', 'SATA Controller', '--add', 'sata', '--portcount', 2]
