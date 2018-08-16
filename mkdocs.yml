@@ -59,6 +59,15 @@ nav:
     - 'getting-started/using-vagrant.md'
   - 'Linux Essentials':
     - 'linux-essentials/index.md'
+    - 'linux-essentials/linux-origins.md'
+    - 'linux-essentials/the-shell.md'
+    - 'linux-essentials/the-file-system.md'
+    - 'linux-essentials/command-basics.md'
+    - 'linux-essentials/getting-help.md'
+    - 'linux-essentials/command-manipulation.md'
+    - 'linux-essentials/privilege-escalation.md'
+    - 'linux-essentials/shell-tips.md'
+    - 'linux-essentials/shell-environment.md'
   - 'Managing Files':
     - 'managing-files/index.md'
   - 'Managing Software':
@@ -68,6 +77,6 @@ nav:
   - 'System Administration':
     - 'system-administration/index.md'
   - 'Networking Basics':
-    - 'network-basics/index.md'
+    - 'networking-basics/index.md'
   - 'Shell Scripting':
     - 'shell-scripting/index.md'
