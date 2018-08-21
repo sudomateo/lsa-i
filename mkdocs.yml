@@ -64,7 +64,7 @@ nav:
     - 'linux-essentials/the-file-system.md'
     - 'linux-essentials/command-basics.md'
     - 'linux-essentials/getting-help.md'
-    - 'linux-essentials/command-manipulation.md'
+    - 'linux-essentials/command-input-output.md'
     - 'linux-essentials/privilege-escalation.md'
     - 'linux-essentials/shell-tips.md'
     - 'linux-essentials/shell-environment.md'

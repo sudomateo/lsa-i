@@ -1,4 +1,4 @@
-# Command Input/Output Manipulation
+# Command Input and Output
 
 ## File Descriptors
 
