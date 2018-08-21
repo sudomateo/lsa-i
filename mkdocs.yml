@@ -13,8 +13,8 @@ theme:
     primary: 'red'
     accent: 'green'
   font:
-    text: 'Roboto'
-    code: 'Roboto Mono'
+    text: 'Open Sans'
+    code: 'Source Code Pro'
   logo:
     icon: 'code'
   feature:
