@@ -63,7 +63,6 @@ nav:
     - 'linux-essentials/the-shell.md'
     - 'linux-essentials/the-file-system.md'
     - 'linux-essentials/command-basics.md'
-    - 'linux-essentials/common-commands.md'
     - 'linux-essentials/getting-help.md'
     - 'linux-essentials/command-input-output.md'
     - 'linux-essentials/privilege-escalation.md'
