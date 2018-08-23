@@ -71,6 +71,10 @@ nav:
     - 'linux-essentials/exercises.md'
   - 'Managing Files':
     - 'managing-files/index.md'
+    - 'managing-files/file-basics.md'
+    - 'managing-files/file-information.md'
+    - 'managing-files/file-permissions.md'
+    - 'managing-files/exercises.md'
   - 'Managing Software':
     - 'managing-software/index.md'
   - 'Configuring Disks':
