@@ -77,6 +77,10 @@ nav:
     - 'managing-files/exercises.md'
   - 'Managing Software':
     - 'managing-software/index.md'
+    - 'managing-software/packages.md'
+    - 'managing-software/processes.md'
+    - 'managing-software/services.md'
+    - 'managing-software/exercises.md'
   - 'Configuring Disks':
     - 'configuring-disks/index.md'
   - 'System Administration':
