@@ -1,6 +1,7 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
+# Provisioning script
 $script = <<-SCRIPT
 yum install -y bash-completion vim-enhanced
 echo "Welcome to Linux System Administration I" > /etc/motd
@@ -11,8 +12,11 @@ Vagrant.configure("2") do |config|
   # The guest name when using `vagrant status`
   config.vm.define "lsa-i"
 
-  # This specifies the Vagrant box that we want to use
+  # The Vagrant box to use
   config.vm.box = "centos/7"
+  
+  # The version of the Vagrant box to use
+  config.vm.box_version = "1804.02"
 
   # Sets the hostname of the guest
   config.vm.hostname = "lsa-i"
