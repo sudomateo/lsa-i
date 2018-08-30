@@ -191,7 +191,7 @@ The `chgrp` command is used to change the group ownership of a file. Not too com
 
 ### `chmod`
 
-The `chown` command is used to change the permissions of a file. It accepts an octal number of permissions to set.
+The `chmod` command is used to change the permissions of a file. It accepts an octal number of permissions to set.
 
 !!! example "Example: Usage of `chmod`."
 
