@@ -81,8 +81,10 @@ nav:
     - 'managing-software/processes.md'
     - 'managing-software/services.md'
     - 'managing-software/exercises.md'
-  - 'Configuring Disks':
-    - 'configuring-disks/index.md'
+  - 'Configuring Hardware':
+    - 'configuring-hardware/index.md'
+    - 'configuring-hardware/device-basics.md'
+    - 'configuring-hardware/device-configuration.md'
   - 'System Administration':
     - 'system-administration/index.md'
   - 'Networking Basics':
