@@ -87,6 +87,10 @@ nav:
     - 'configuring-hardware/device-configuration.md'
   - 'System Administration':
     - 'system-administration/index.md'
+    - 'system-administration/users-and-groups.md'
+    - 'system-administration/configuring-the-system.md'
+    - 'system-administration/managing-logs.md'
+    - 'system-administration/periodic-processes.md'
   - 'Networking Basics':
     - 'networking-basics/index.md'
   - 'Shell Scripting':
