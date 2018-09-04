@@ -23,6 +23,8 @@ extra:
   social:
     - type: 'github'
       link: 'https://github.com/sudomateo'
+    - type: 'linkedin'
+      link: 'https://linkedin.com/in/matthewsanabria'
 markdown_extensions:
   - admonition
   - codehilite:
