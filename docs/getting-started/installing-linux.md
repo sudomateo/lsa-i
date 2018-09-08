@@ -13,7 +13,7 @@ You'll need to be running one of the follow operating systems to follow these in
     
     In order to create a virtual machine, you will need to enable virtualization within the BIOS of your computer. This is often called Intel VT-x or AMD-V depending on your processor.
 
-## Installing on Windows 10 (Version 1803 and above)
+## Installing on Windows 10 (Windows 10 Version 1803 and above)
 
 1. Enable the SSH Client.
     1. Open Settings.
@@ -49,7 +49,7 @@ default provider will be shown. So if a provider is not listed,
 then the machine is not created for that environment.
 ```
 
-## Installing on Windows 7 / 8 / 10 (Version 1803 and below)
+## Installing on Windows 7 / 8 / 10 (Windows 10 Version 1803 and below)
 
 1. Install VirtualBox.
     1. Download and install [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
