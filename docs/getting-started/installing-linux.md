@@ -69,7 +69,7 @@ then the machine is not created for that environment.
     2. Run the command `mkdir lsa-i` to create a new directory named `lsa-i`.
     3. Download the [Vagrantfile](https://gist.github.com/sudomateo/7068f579591667283a4710ae82824766/archive/d12deecb525fc61302ee7bc457cdf3b6e911db6f.zip) for this course.
     4. Unzip the downloaded file.
-    5. Copy the unzipped `Vagrantfile` into the `lsa-i` directory created above. The `lsa-i` directory should be inside your `cmder` folder on your Desktop. Ensure the file does not have a file extension. 
+    5. Copy the unzipped `Vagrantfile` into the `lsa-i` directory created above. The `lsa-i` directory should be inside your `cmder` folder on your Desktop. Ensure the `Vagrantfile` file does not have a file extension. 
     6. Run the command `cd lsa-i` to change into the newly created `lsa-i` directory.
     7. Run the command `vagrant status` to confirm that the installation completed successfully. You should see output similar to the following.
 ```
