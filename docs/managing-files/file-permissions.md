@@ -151,7 +151,7 @@ In octal format, the special permissions are added to the front to create four d
 
     Given the permissions `rwxr-Sr-x`. We can determine the octal number is `2745`.
 
-    * Special permissions are `-S-` which is `S = 4`.
+    * Special permissions are `-S-` which is `S = 2`.
     * User permissions are `rwx` which is `r + w + x = 4 + 2 + 1 = 7`.
     * Group permissions are `r--` which is `r = 4`.
     * Other permissions are `r-x` which is `r + x = 4 + 1 = 5`.
