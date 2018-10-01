@@ -1,6 +1,6 @@
 # Packages
 
-In Linux, software is installed by installing packages. Packages are nothing more than a archive of files that contain software. These archives of files come in different formats depending on the Linux distribution you are running.
+In Linux, software is installed by installing packages. Packages are nothing more than an archive of files that contain software. These archives of files come in different formats depending on the Linux distribution you are running.
 
 ## Package Formats
 

@@ -8,13 +8,13 @@ When Linux boots up, the kernel will load the first process. This first process 
 
 Linux uses what are called targets to determine what services get started upon boot. These targets use systemd unit files to start other services. Common targets are detailed below.
 
-| Target            | Description                      |
-| ----------------- | -------------------------------- |
-| `poweroff.target` | Powers off the system            |
-| `rescue.target`   | Switches to single user mode     |
-| `poweroff.target` | Multi-user mode, console login   |
-| `poweroff.target` | Multi-user mode, graphical login |
-| `poweroff.target` | Reboots the system               |
+| Target              | Description                      |
+| ------------------- | -------------------------------- |
+| `poweroff.target`   | Powers off the system            |
+| `rescue.target`     | Switches to single user mode     |
+| `multi-user.target` | Multi-user mode, console login   |
+| `graphical.target`  | Multi-user mode, graphical login |
+| `reboot.target`     | Reboots the system               |
 
 The systemd unit files define how to start a given service. These files usually end in `.service` and are located in two locations on the file system. The first location is `/usr/lib/systemd/system` and the second is `/etc/systemd/system`. If a file with the same name is located in both locations, the file in `/etc/systemd/system` takes precedence. This allows package maintainers to ship a systemd unit file for their service that lives in `/usr/lib/systemd/system` while allowing the system administrator to override that file in `/etc/systemd/system` if necessary.
 
