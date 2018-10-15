@@ -17,7 +17,7 @@ There are many different types of devices ranging from CDs all the way to SSDs. 
 
 ## Device Naming Conventions
 
-Disks are located in the `/dev` directory and follow a specific naming convention. Entire disks are often named using the format `/dev/sda`, `/dev/vda`, or `/dev/hda` while partitions of a disk are named using the format `/dev/sda1`, `/dev/vda1`, and `/dev/hda1`. Entire disks start their naming at `a` and paritions start at `1`. Given a disk named `/dev/sdb3` we can determine that this is the third partition on the second disk. Disks that begin with `sd`, `vd`, or `hd` refer to SATA disks, virtualized disks, and IDE disks respectively although many modern technologies abstract this away from the user and usually present disks using the `sd` prefix.
+Disks are located in the `/dev` directory and follow a specific naming convention. Entire disks are often named using the format `/dev/sda`, `/dev/vda`, or `/dev/hda` while partitions of a disk are named using the format `/dev/sda1`, `/dev/vda1`, and `/dev/hda1`. Entire disks start their naming at `a` and partitions start at `1`. Given a disk named `/dev/sdb3` we can determine that this is the third partition on the second disk. Disks that begin with `sd`, `vd`, or `hd` refer to SATA disks, virtualized disks, and IDE disks respectively although many modern technologies abstract this away from the user and usually present disks using the `sd` prefix.
 
 !!! example "Example: Showing the differences between disk names."
     

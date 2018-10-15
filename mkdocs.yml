@@ -87,6 +87,7 @@ nav:
     - 'configuring-hardware/index.md'
     - 'configuring-hardware/device-basics.md'
     - 'configuring-hardware/device-configuration.md'
+    - 'configuring-hardware/exercises.md'
   - 'System Administration':
     - 'system-administration/index.md'
     - 'system-administration/users-and-groups.md'

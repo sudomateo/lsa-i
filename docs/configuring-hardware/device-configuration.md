@@ -32,7 +32,7 @@ The `dd` command is used to perform a bit for bit copy of one block device onto 
 
 In order to create a file system, you must first have a partition table on the disk. Disks can be partitioned using either the Master Boot Record (MBR) or GUID Partition Table (GPT) partition tables. Before you choose a partition table, keep in mind that MBR partitions can only have 4 partitions of up to 2.2 TiB each while GPT partitions can have "unlimited" partitions up to 1 billion TiB each.
 
-There are a few commands you can use to create partition tables. One such command is `fdisk`, which is used to create MBR rartition tables on a disk. Another command is `gdisk` which is used to create GPT partition tables on a disk. The other is `parted` which can create both MBR and GPT partition tables on a disk. In this course we'll focus solely on `fdisk`.
+There are a few commands you can use to create partition tables. One such command is `fdisk`, which is used to create MBR partition tables on a disk. Another command is `gdisk` which is used to create GPT partition tables on a disk. The other is `parted` which can create both MBR and GPT partition tables on a disk. In this course we'll focus solely on `fdisk`.
 
 ### `fdisk`
 
