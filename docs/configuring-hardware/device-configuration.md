@@ -63,7 +63,7 @@ To create a filesystem, we use the `mkfs.TYPE` command where `TYPE` is the type 
     Create an `ext4` file system on the partition `/dev/sdb2`.
 
     ```
-    $ sudo mkfs.ext4 /dev/sdb1
+    $ sudo mkfs.ext4 /dev/sdb2
     ```
 
 ## Mounting and Unmounting the Disk
