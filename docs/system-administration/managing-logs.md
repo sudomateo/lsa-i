@@ -14,7 +14,7 @@ Most logs for a system are located in the `/var/log` directory. To read the logs
 
 ### `journalctl`
 
-A better way to read logs is the use the `journalctl` command. Now keep in mind that `journalctl` may not contain all logs, but it will contain most of the logs from the system and the services running on it. 
+A better way to read logs is to use the `journalctl` command. Now keep in mind that `journalctl` may not contain all logs, but it will contain most of the logs from the system and the services running on it. 
 
 !!! example "Example: Usage of `journalctl`."
 
@@ -33,5 +33,5 @@ A better way to read logs is the use the `journalctl` command. Now keep in mind 
     Read all the logs `journalctl` knows about, starting from `2018-09-01 18:00:00`.
 
     ```
-    $ sudo journalctl --since 2018-09-01 18:00:00
+    $ sudo journalctl --since "2018-09-01 18:00:00"
     ```

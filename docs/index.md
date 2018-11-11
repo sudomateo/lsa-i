@@ -27,3 +27,11 @@ This section covers how to format, partition, and mount disks.
 ### [System Administration](system-administration)
 
 This section covers how to configure the system, manage users, and run periodic processes.
+
+### [Networking Basics](networking-basics)
+
+This section covers how to configure and manage Linux networking.
+
+### [Shell Scripting](shell-scripting)
+
+This section covers how to write and execute shell scripts.

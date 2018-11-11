@@ -4,7 +4,7 @@ Users and groups are used to manage access to files, directories, and other serv
 
 ## Managing Users
 
-User accounts can be up to 32 characters in length and like most things in Linux, they are case-sensitive. You can usethe characters `a-z`, `A-Z`, `0-9`, `-`, and `_` in a user name but it is common convention to create a user in all lowercase letters. It's recommended to have a username policy to standardize username formats for your systems.
+User accounts can be up to 32 characters in length and like most things in Linux, they are case-sensitive. You can use the characters `a-z`, `A-Z`, `0-9`, `-`, and `_` in a user name but it is common convention to create a user in all lowercase letters. It's recommended to have a username policy to standardize username formats for your systems.
 
 Information for all of the users on a Linux system is kept in the `/etc/passwd` file. This is a `:` delimited file that contains information about a user in the following format:
 
