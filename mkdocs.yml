@@ -94,7 +94,9 @@ nav:
     - 'system-administration/configuring-the-system.md'
     - 'system-administration/managing-logs.md'
     - 'system-administration/periodic-processes.md'
-  - 'Networking Basics':
-    - 'networking-basics/index.md'
+  - 'Networking':
+    - 'networking/index.md'
+    - 'networking/network-basics.md'
+    - 'networking/network-troubleshooting.md'
   - 'Shell Scripting':
     - 'shell-scripting/index.md'

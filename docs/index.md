@@ -28,7 +28,7 @@ This section covers how to format, partition, and mount disks.
 
 This section covers how to configure the system, manage users, and run periodic processes.
 
-### [Networking Basics](networking-basics)
+### [Networking Basics](networking)
 
 This section covers how to configure and manage Linux networking.
 
