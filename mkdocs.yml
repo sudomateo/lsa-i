@@ -97,6 +97,7 @@ nav:
   - 'Networking':
     - 'networking/index.md'
     - 'networking/network-basics.md'
+    - 'networking/network-security.md'
     - 'networking/network-troubleshooting.md'
   - 'Shell Scripting':
     - 'shell-scripting/index.md'
