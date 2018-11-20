@@ -49,6 +49,8 @@ This file takes the parameters defined in the following table.
 | `IPADDR`    | The IPv4 address.                                            |
 | `NETMASK`   | The IPv4 network mask.                                       |
 | `GATEWAY`   | The IPv4 gateway.                                            | 
+| `DNS1`      | The primary DNS server.                                      | 
+| `DNS2`      | The secondary DNS server.                                    | 
 | `ONBOOT`    | Whether or not to intialize this interface on boot.          | 
 | `TYPE`      | The type of the interface. Usually `Ethernet`.               |
 
@@ -62,6 +64,8 @@ This file takes the parameters defined in the following table.
     IPADDR=198.211.113.12
     NETMASK=255.255.255.0
     GATEWAY=198.211.113.1
+    DNS1=8.8.8.8
+    DNS1=8.8.4.4
     ONBOOT=yes
     TYPE=Ethernet
     ```
