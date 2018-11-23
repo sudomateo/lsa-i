@@ -58,15 +58,15 @@ This file takes the parameters defined in the following table.
     
     ```
     BOOTPROTO=none
-    DEFROUTE=yes
-    DEVICE=eth0
-    HWADDR=86:cc:71:46:89:7c
+    DEFROUTE=no
+    DEVICE=eth5
+    HWADDR=00:11:22:33:44:55
     IPADDR=198.211.113.12
     NETMASK=255.255.255.0
     GATEWAY=198.211.113.1
     DNS1=8.8.8.8
     DNS1=8.8.4.4
-    ONBOOT=yes
+    ONBOOT=no
     TYPE=Ethernet
     ```
 
