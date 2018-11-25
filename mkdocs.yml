@@ -101,3 +101,4 @@ nav:
     - 'networking/network-troubleshooting.md'
   - 'Shell Scripting':
     - 'shell-scripting/index.md'
+    - 'shell-scripting/scripting-basics.md'
