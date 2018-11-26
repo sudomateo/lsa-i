@@ -267,3 +267,30 @@ Functions are a way to create repeatable and reusable code. Functions can run bl
     This is function
     You passed these arguments to this function: myarg1
     ```
+
+## Return Codes
+
+When a command is executed in a shell it returns a code, often called the exit code or return code. This return code can range from `0-255` where `0` indicates a successful run of the command and anything non-zero (`1-255`) indicates a failure. This can be useful in shell scripts to conditionally execute some code if another command executed successfully.
+
+If you want your script to return a return code upon exiting you can use the `exit` command. The `exit` command will stop execution of the shell script and exit, returning the specified exit code. The default return code is `0` unless one is specified. For example, `exit` returns the exit code of `0` while `exit 1` returns the exit code of `1`. Remember you can return any code from `0-255`.
+
+!!! example "Example: Showing the usage of return codes."
+    
+    ```
+    $ cat example12.sh
+    #!/bin/bash
+    date
+    if [ "${?}" -eq 0]; then
+      echo "The date command completed successfully"
+      exit 0
+    else
+      exit 1
+    fi
+
+    $ ./example12.sh
+    Sat Nov 24 23:43:18 EST 2018
+    The date command completed successfully
+
+    $ echo ${?}
+    0
+    ```
