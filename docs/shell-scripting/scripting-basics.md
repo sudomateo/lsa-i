@@ -30,6 +30,7 @@ To run your script, enter the absolute or relative path to your script on the co
     date
 
     $ ./example01.sh
+    The current date is:
     Sat Nov 24 23:14:08 EST 2018
     ```
 
@@ -54,6 +55,21 @@ Variables are also create from the script arguments. Arguments are variables tha
 ```
 ./myscript.sh arg1 arg2 argN
 ```
+
+!!! example "Example: Showing variables in shell scripts."
+
+    Printing a variable.
+
+    ```
+    $ cat example02.sh
+    #!/bin/bash
+    myvar="hello"
+    echo "The variable is: ${myvar}"
+
+    $ ./example02.sh
+    The variable is: hello
+    ```
+
 
 This will pass in the arguments to the script and store them in special variables. Here's a table of the special variables in shell scripts and a description of what they hold.
 
@@ -108,7 +124,7 @@ This will pass in the arguments to the script and store them in special variable
     #!/bin/bash
     echo "The number of arguments is ${#}"
     echo "The space-delimited string of arguments is ${*}"
-    echo "The newline-delimited string of arguments is ${@}
+    echo "The newline-delimited string of arguments is ${@}"
 
     $ ./example05.sh one two three
     The number of arguments is 3
@@ -131,7 +147,7 @@ You can use tests or comparision in `if` statements to determine what condition 
 The syntax for an `if` statement is as follows.
 
 ```
-if [ ${myvar} == "hello" ]; then
+if [ "${myvar}" == "hello" ]; then
   echo "${myvar} is equal to hello"
 fi
 ```
@@ -280,7 +296,7 @@ If you want your script to return a return code upon exiting you can use the `ex
     $ cat example12.sh
     #!/bin/bash
     date
-    if [ "${?}" -eq 0]; then
+    if [ "${?}" -eq 0 ]; then
       echo "The date command completed successfully"
       exit 0
     else
