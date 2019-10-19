@@ -4,7 +4,7 @@ I created Linux System Administration I for technology enthusiasts that have nev
 
 ## Course Outline
 
-###[Getting Started](getting-started)
+### [Getting Started](getting-started)
 
 This section details everything that is needed to setup the environment used in this course.
 
