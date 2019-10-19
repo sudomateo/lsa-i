@@ -24,7 +24,7 @@ extra:
     - type: 'github'
       link: 'https://github.com/sudomateo'
     - type: 'linkedin'
-      link: 'https://linkedin.com/in/matthewsanabria'
+      link: 'https://linkedin.com/in/sudomateo'
 markdown_extensions:
   - admonition
   - codehilite:
@@ -54,7 +54,6 @@ nav:
   - 'Home':
     - 'index.md'
     - 'conventions.md'
-    - 'community.md'
   - 'Getting Started':
     - 'getting-started/index.md'
     - 'getting-started/installing-linux.md'
