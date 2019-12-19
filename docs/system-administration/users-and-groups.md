@@ -15,12 +15,15 @@ USERNAME:PASSWORD:UID:GID:GECOS:HOME:SHELL
 | Field    | Description                                                        |
 | -------- | ------------------------------------------------------------------ |
 | USERNAME | The user's user name.                                              |
-| PASSWORD | The user's password. Moved to `/etc/shadow` on most Linux systems. |
+| PASSWORD | Not kept in `/etc/passwd`. Moved to `/etc/shadow` instead.         |
 | UID      | The user ID of the user.                                           |
 | GID      | The group ID of the user's primary group.                          |
 | GECOS    | The text of a user. Usually contains the user's full name.         |
 | HOME     | The user's home directory.                                         |
 | SHELL    | The user's default shell.                                          |
+
+!!! info "Info"
+    A user's password is actually encrypted and kept in the `/etc/shadow` file for security reasons.
 
 There are a few basic commands to use to manage users on a Linux machine. These commands are `useradd`, `userdel`, and `usermod` and they are used to add, remove, and modify users respectively.
 
